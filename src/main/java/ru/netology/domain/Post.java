@@ -16,4 +16,10 @@ public class Post {
     private int isPinned; // Shows if the post is pinned (1 – yes, 0 – no).
     private int markAsAds; // Information whether the post is marked as ads
     private boolean isFavorite; // true, if object is added to favorites by current users.
+    private Comments comments;
+    private Geo geo;
+    private Likes likes;
+    private Place place;
+    private PostSource postSource;
+    private Reposts reposts;
 }
